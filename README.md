@@ -23,3 +23,12 @@ pela própria empresa.
 5. **Segurança:** a nuvem, oferece ferramentas de segurança que atendem às necessidades do cliente, mas é uma segurança de recursos, previnindo de ataques e problemas com a infraestrutura, por exemplo.
 6. **Governança:** a auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de conformidade com seus padrões corporativos e fornece estratégias de mitigação.
 7. **Gerenciabilidade:** a nuvem possui uma alta gerenciabilidade, permitindo gerenciar os recursos por meios de várias ferramentas diferentes. 
+
+### Tipos de serviços em nuvem:
+- **Infraestrutura como Serviço (IaaS):** Oferece recursos de infraestrutura, como máquinas virtuais, armazenamento e redes, sob demanda.
+Os provedores de IaaS permitem que você gerencie seus sistemas operacionais, aplicativos e dados, enquanto eles cuidam da infraestrutura física.
+
+- **Plataforma como Serviço (PaaS):** Fornece uma plataforma completa para desenvolvimento e implantação de aplicativos, sem a necessidade de gerenciar hardware ou sistemas operacionais. Ideal para desenvolvedores que querem se concentrar na criação de aplicativos.
+
+- **Software como Serviço (SaaS):** Oferece software pronto para uso acessado pela internet, sem a necessidade de instalação ou manutenção local.
+
