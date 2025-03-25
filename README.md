@@ -1,34 +1,58 @@
 # Computação em Nuvem
-Computação em nuvem é a entrega de serviços de computação, como banco de dados, containerização e virtualização, de maneira remota, onde os seviços são fornecidos por empresas terceiras ou 
-pela própria empresa.
 
-### Tipos de nuvem:
-- ***Pública:*** tipo de nuvem onde uma empresa fornece os mesmos serviços de nuvem para vários outros clientes
-- ***Privada:*** tipo de nuvem onde uma empresa possui sua própria nuvem e seu datacenter utilizado pela organização.
-- ***Híbrida:*** tipo de nuvem onde a empresa faz a utilzação dos tipos de nuvem privada e pública.
+Este repositório apresenta um resumo sobre computação em nuvem, incluindo seus tipos, benefícios e serviços, com foco em tecnologias do Azure.
 
- ### Despesas CapEx x OpEx
- - **CapEx:** tipo de despesa que uma empresa possui ao construir seu próprio datacenter, tendo despesas mais altas no começo para a criação do respectivo datacenter, mas que diminui conforme
- o datacenter é finalizado.
- - **OpEx:** tipo de despesa que uma empresa possui ao fazer o consumo de serviços de nuvem, com os quais a empresa gasta apenas com aquilo que utiliza.
+## Tipos de Nuvem
 
-### SLA (Service Level Agreement)
-É um acordo que define os compromissos da Microsoft em relação à conectividade e tempo de atividade dos serviços do Azure
+- **Pública:** Serviços compartilhados entre vários clientes fornecidos por uma empresa.
+- **Privada:** Recursos exclusivos e datacenter próprio da organização.
+- **Híbrida:** Combinação de nuvens públicas e privadas.
 
-### Benefícios:
-1. **Escalabilidade:** é possível ajustar os recursos para atender às demandas da empresa, sem precisar usar mais ou menos daquilo que é necessário.
-2. **Elasticidade:** a capacidade de aumentar (ou diminuir) os recursos de forma automática ou manual para se atender a uma demanda repentina.
-3. **Confiabilidade:** os recursos de nuvem possuem uma alta confiabilidade, visto que, são recursos descentralizados, tendo recursos em vários lugares do mundo.
-4. **Previsibilidade:** é possível avençar no desempenho ou custo, pois é possível prever possíveis comportamentos dos nossos recursos para as futuras demandas da empresa.
-5. **Segurança:** a nuvem, oferece ferramentas de segurança que atendem às necessidades do cliente, mas é uma segurança de recursos, previnindo de ataques e problemas com a infraestrutura, por exemplo.
-6. **Governança:** a auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de conformidade com seus padrões corporativos e fornece estratégias de mitigação.
-7. **Gerenciabilidade:** a nuvem possui uma alta gerenciabilidade, permitindo gerenciar os recursos por meios de várias ferramentas diferentes. 
+## Despesas CapEx x OpEx
 
-### Tipos de serviços em nuvem:
-- **Infraestrutura como Serviço (IaaS):** Oferece recursos de infraestrutura, como máquinas virtuais, armazenamento e redes, sob demanda.
-Os provedores de IaaS permitem que você gerencie seus sistemas operacionais, aplicativos e dados, enquanto eles cuidam da infraestrutura física.
+- **CapEx:** Investimento inicial elevado na construção de datacenters próprios, com redução de despesas ao longo do tempo.
+- **OpEx:** Custo baseado no uso de serviços de nuvem, garantindo maior flexibilidade nos gastos.
 
-- **Plataforma como Serviço (PaaS):** Fornece uma plataforma completa para desenvolvimento e implantação de aplicativos, sem a necessidade de gerenciar hardware ou sistemas operacionais. Ideal para desenvolvedores que querem se concentrar na criação de aplicativos.
+## SLA (Service Level Agreement)
 
-- **Software como Serviço (SaaS):** Oferece software pronto para uso acessado pela internet, sem a necessidade de instalação ou manutenção local.
+Acordo que define os compromissos de conectividade e tempo de atividade dos serviços, como no caso do Microsoft Azure.
 
+## Benefícios da Computação em Nuvem
+
+1. **Escalabilidade:** Ajuste dos recursos conforme a demanda.
+2. **Elasticidade:** Alteração automática ou manual dos recursos para atender às variações repentinas de demanda.
+3. **Confiabilidade:** Recursos descentralizados para alta disponibilidade.
+4. **Previsibilidade:** Facilidade em prever desempenho e custos futuros.
+5. **Segurança:** Ferramentas robustas para proteção contra ataques e problemas de infraestrutura.
+6. **Governança:** Auditorias automatizadas para conformidade com padrões corporativos.
+7. **Gerenciabilidade:** Gestão simplificada por meio de diversas ferramentas.
+
+## Tipos de Serviços em Nuvem
+
+- **Infraestrutura como Serviço (IaaS):** Recursos sob demanda, como máquinas virtuais e redes.
+- **Plataforma como Serviço (PaaS):** Ambiente para desenvolvimento e implantação de aplicativos.
+- **Software como Serviço (SaaS):** Aplicativos prontos para uso acessados pela internet.
+
+## Componentes de Arquitetura no Azure
+
+- **Zonas de Disponibilidade:** Alta disponibilidade e redundância em locais físicos dentro de cada região.
+- **Regiões:** Conjuntos de datacenters distribuídos globalmente.
+- **Grupos de Recursos:** Organização lógica para melhor gerenciamento.
+- **Azure Resource Manager (ARM):** Automação e gerenciamento de recursos.
+- **Rede Virtual (VNet):** Redes privadas no Azure com integração a redes locais.
+
+## Computação e Rede no Azure
+
+### Computação
+
+- **Máquinas Virtuais (VMs):** Flexibilidade para aplicativos e sistemas personalizados.
+- **Escalamento Automático:** Ajuste de instâncias conforme a demanda.
+- **Kubernetes e Containers:** Gestão eficiente com Azure Kubernetes Service (AKS).
+- **Funções Azure:** Computação sem servidor com pagamento baseado no uso.
+
+### Rede
+
+- **Conexão VPN:** Redes privadas virtuais para conexão segura entre datacenters locais e Azure.
+- **Firewall do Azure:** Proteção avançada contra tráfego malicioso.
+- **Content Delivery Network (CDN):** Entrega rápida de conteúdo global.
+- **DNS do Azure:** Gerenciamento de domínios.
